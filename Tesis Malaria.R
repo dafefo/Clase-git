@@ -9,6 +9,7 @@ Datos_Malaria_Pacifico1 = Datos_Malaria_Pacifico1[-27]
 
 
 summary(Datos_Malaria_Pacifico1)
+
 hist(Datos_Malaria_Pacifico1$areaprilegal_sqkm)
 hist(Datos_Malaria_Pacifico1$casos)
-
+hist(Datos_Malaria_Pacifico1$total_population_DANE) 
