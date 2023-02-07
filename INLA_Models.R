@@ -125,8 +125,10 @@ mod <- inla(baseformula, data = df_inla, family = "nbinomial",
 #test baseline model
 model = INLAmodel(baseformula, family = "nbinomial")  
 
+#Crear modelo base con ano mes y espacio
+#Agregar mineria al modelo
+#Agregar lag {0,3}
 
-  
   
   
   
